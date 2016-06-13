@@ -10,7 +10,7 @@ main(int argc, char *argv[])
 	
 	humam_play_new_game (game);
 		
-	toh_hanoibase_free (hanoi_base);
+	toh_hanoibase_free (game);
 
 	return 0;
 }
