@@ -150,9 +150,9 @@ toh_hanoibase_gameplay (HanoiBase *game,
 		move_generator (game, &src, &dst);
 
 		if (!toh_hanoibase_make_move (game, src, dst))
-			printf ("Invalid move.");
+			printf ("Invalid move.\n");
 	}
 
 	toh_hanoibase_print (game);
-	printf ("You win with %d moviments.", total_moves);
+	printf ("You win with %d moviments.\n", total_moves);
 }

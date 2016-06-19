@@ -3,3 +3,6 @@ SRC=src/main.c src/towerofhanoi.c src/towerofhanoi.h src/hanoihumanplayer.c src/
 
 all:
 	$(CC) $(SRC) -O3 -o towerofhanoi
+
+clean:
+	rm towerofhanoi
